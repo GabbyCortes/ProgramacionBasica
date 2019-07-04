@@ -1,10 +1,11 @@
 # ProgramacionBasica
-# Programación Básica.
+#  Programación Básica.
+
 
 ----
-## Tutorial de Python.
+##  Tutorial de Python.
 
-###Operadores
+###  Operadores
 TIPOS DE DATOS BASICOS
 
 En python los tipos de datos básicos se dividen en, números, como pueden ser 3 (entero ó integer) 1.75, (punto flotante ó float) 7+5j (complejos ó complex).
@@ -46,7 +47,7 @@ Un ejemplo de esto puede ser el siguiente:
     print('El resultado de "a" a la "b" es ' ,p)   
     import math    
     print('El logaritmo es ' ,math.log10(a))
-###Ciclo For.
+###  Ciclo For.
 En pyhton "for" se utiliza como una forma genérica de interés sobre una secuencia, es decir, recorrer una secuencia.
 
             variable = secuencia  
@@ -71,7 +72,7 @@ Un ejemplo del ciclo "for" puede ser el siguiente:
     for celcius in range(0,101,10):
         farenheit = (1.8*celcius)+32
         print(celcius,'gC','|',farenheit,'gF')
-###Modulo Turlte 
+###  Modulo Turlte 
 Hay muchos módulos en python que proveen características poderosas que podemos usar en nuestros propios programas. Algunos de estos pueden enviar correos electrónicos y algunos de estos pueden extraer información de paginas de Internet. Para el manejo de gráficos usaremos un modulo que permite crear figuras y patrones. El modulo que se usara permiten desarrollar nuestro pensamiento computacional.
 
       
@@ -114,7 +115,7 @@ Te aparecera una flecha, y no como tal una tortuga, pero si la quisieras ponlo d
     alex.left(120)
     alex.forward(100)
     ventana.mainloop() 
-###Funciónes 
+###  Funciónes 
 
 Una función es un fragmento de código con un nombre asociado que realiza una serie de tareas y devuelve un valor. A demás de ayudarnos a programar y depurar dividiendo el programa en partes, las funciones también permiten reutilizar código.
      
@@ -148,7 +149,7 @@ Puede también colocarce el Modulo Turtle con algunos de los ciclos, como se mue
     dibujar_cuadro(rafa, 50)
     dibujar_cuadro(dona, 200)
     ventana.mainloop()
-###Programación Ambientada a Objetos.
+###  Programación Ambientada a Objetos.
 
 Al principio del curso comentavamos que Python es un lenguaje multiparadigma en el que se podía trabajar con programación estructurada, como veniamos haciendo ahora o con programación orientada a objetos el cual es un paradigma de programación en el que los conceptos del mundo real relevantes para nuestro problema se modelan a travéz de clases y objetos, y en el que nuestro programa consiste en una serie de interacciones entre objetos.
 
@@ -206,7 +207,7 @@ Por ejemplo:
         t=s+(m*60)+(h*3600)+(d*86400)
         print('El tiempo en segundos es',t)
 
-#Ejercicios:
+#  Ejercicios:
 >**Ejercicio 1:**
 
     import turtle
